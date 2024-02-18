@@ -1,3 +1,67 @@
 body {
     padding-top: 5rem;
 }
+
+/*
+.container{
+    margin: 0%;
+
+}
+*/
+#one{
+    background-color: aquamarine;
+    color:white;
+}
+
+#two{
+    background-color:white;
+    color:black
+    
+}
+
+img{
+    border-radius: 50%;
+    width:25%;
+    height: auto;
+}
+
+
+#trio{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.i{
+    display: flex;
+    flex-direction: column;
+    padding:0px 85px;
+}
+.button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width:70px;
+    height:auto;
+}
+
+#outer{
+    display: flex;
+    justify-content: center;
+}
+
+#blog{
+    padding: 20px 100px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+#one-main{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}

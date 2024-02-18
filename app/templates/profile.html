@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block main%} 
+<section id="one">
+    <div class="center"> 
+        <img src="{{url_for('static',filename='gatsu.jpg')}}" alt="Literally me">
+    </div>
+
+    <div id="one-main">
+        <div>
+            <h1>Khadeem Lattibeaudiere</h1>
+        </div>
+        
+        <div>
+            <p>  @kha._deem
+            <br>
+              Kingston, Jamaica
+            <br>
+              {{ result }}</p>
+        </div>
+    </div>
+</section>
+
+<section id="two">
+    <div id="blog">
+        <p>
+            I'm Khadeem, a computer science student fascinated by algorithms and diverse programming languages. From cracking codes to contributing to cutting-edge projects, I thrive in the dynamic world of technology. Balancing academics with coding, I'm on a journey to bridge theory with real-world applications in the ever-evolving landscape of computer science.
+        </p>
+    </div>
+    <div id="trio">
+        <div class="i">
+            <h2>7</h2>
+            <p>Posts</p>
+        </div>
+        <div class="i">
+            <h2>100</h2>
+            <p>Following</p>
+        </div>
+        <div class="i">
+            <h2>250</h2>
+            <p>Followers</p>
+        </div>
+    </div>
+    
+    <div id="outer"><a class="button" href=""> <div>Follow
+    </div>
+    </a>
+    </div>
+     
+    
+</section>
+{% endblock%}

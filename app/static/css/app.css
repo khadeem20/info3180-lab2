@@ -2,15 +2,14 @@ body {
     padding-top: 5rem;
 }
 
-/*
 .container{
-    margin: 0%;
-
+    padding-bottom: 80px;
 }
-*/
+
 #one{
-    background-color: aquamarine;
+    background-color: blueviolet;
     color:white;
+    padding-top: 50px;
 }
 
 #two{
@@ -36,23 +35,26 @@ img{
 .i{
     display: flex;
     flex-direction: column;
-    padding:0px 85px;
+    padding:0px 70px;
 }
 .button{
+    display: inline-block;
     background-color: red;
     color: white;
-    border-radius: 5px;
-    width:70px;
-    height:auto;
+    border-radius: 8px;
+    padding: 10px 70px;
+    text-decoration: none;
+    font-size: 22px;
 }
 
 #outer{
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 #blog{
-    padding: 20px 100px;
+    padding: 20px 130px;
 }
 
 .center{
@@ -64,4 +66,9 @@ img{
     display:flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 18px;
 }
